@@ -1,0 +1,40 @@
+name: simple_e_learning
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.4
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+  freezed_annotation: ^1.1.0
+  cached_network_image: ^3.2.0
+  flutter_bloc: ^8.0.1
+  fpdart: ^0.0.12
+  video_player: ^2.2.14
+  flutter_cache_manager: ^3.3.0
+  flutter_html: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.7
+  freezed: ^1.1.0
+  json_serializable: ^6.1.4
+  injectable_generator: ^1.5.2
+  mockito: ^5.0.17
+  bloc_test: ^9.0.1
+
+flutter:
+  uses-material-design: true
